@@ -1,14 +1,14 @@
-🌍 Global Earthquake Analysis & Seismic Insights
-📌 Project Overview
+#	🌍 Global Earthquake Analysis & Seismic Insights
+#	📌 Project Overview
 This project analyzes global earthquake data to uncover seismic patterns, trends, and high-risk zones using a fully data-driven pipeline. Earthquake data is retrieved from the USGS Earthquake API, cleaned and enriched using Python (Pandas & Regex), stored in MySQL, and analyzed through advanced SQL queries. Insights are presented via an interactive Streamlit dashboard.
-🎯 Problem Statement
+#	🎯 Problem Statement
 Analyze and interpret global earthquake data to identify seismic patterns, trends, and risk zones
 Build a scalable, data-driven system using API-based data retrieval, preprocessing, and SQL analytics for meaningful earthquake insights
-🏢 Business Use Cases
+#	🏢 Business Use Cases
 Enable governments and disaster-management teams to assess earthquake risks and plan mitigation strategies
 Support insurers and researchers in evaluating seismic exposure and historical trends
 Facilitate data-driven policies for urban safety, infrastructure resilience, and emergency response
-🔧 Technical Approach
+#	🔧 Technical Approach
 Retrieved earthquake data from the USGS Earthquake API for a defined time range (last 5 years)
 Cleaned and preprocessed data using Python (Pandas & Regex)
 Converted timestamps, handled missing values, and normalized numeric and text fields
@@ -16,7 +16,7 @@ Derived analytical columns such as year, month, day, depth category, and severit
 Stored the cleaned dataset in MySQL for efficient querying
 Performed in-depth SQL analytics to extract trends and insights
 Built an interactive Streamlit dashboard for visualization and exploration
-🗄️ Dataset Retrieval
+#	🗄️ Dataset Retrieval
 API Used:
 https://earthquake.usgs.gov/fdsnws/event/1/query
 Key Parameters:
@@ -58,7 +58,7 @@ Feature	Description
 24	ids	All associated IDs
 25	sources	Reporting sources
 26	type	Event type (earthquake)
-🧹 Data Preparation
+#	🧹 Data Preparation
 Objective
 Clean, transform, and store earthquake API data for reliable analysis.
 Steps
@@ -70,7 +70,7 @@ Year, Month, Day, Day of Week
 Shallow vs Deep earthquakes
 Strong vs Destructive earthquakes
 Store the final dataset in MySQL using SQLAlchemy
-📈 Analytical Tasks
+#	📈 Analytical Tasks
 Magnitude & Depth Analysis
 Top strongest and deepest earthquakes
 Shallow high-magnitude events
@@ -89,19 +89,18 @@ Year-over-year earthquake growth trends
 Shallow vs deep earthquake ratios
 Tsunami vs non-tsunami magnitude comparison
 Spatial and temporal proximity analysis
-📊 Results & Deliverables
+#	📊 Results & Deliverables
 ✔️ Clean, normalized earthquake dataset (last 5 years)
 ✔️ MySQL database with all 26 features and derived metrics
 ✔️ 30+ advanced SQL queries for deep analysis
 ✔️ Interactive Streamlit dashboard
 ✔️ Comprehensive project documentation
-🧠 Tools & Technologies
+#	🧠 Tools & Technologies
 Python (Pandas, Regex, Requests)
 MySQL & Advanced SQL
 USGS Earthquake API
 Streamlit
-
-🚀 Future Enhancements
+#	🚀 Future Enhancements
 Real-time earthquake monitoring
 Predictive modeling for seismic risk
 Integration with GIS mapping tools
