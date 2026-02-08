@@ -30,8 +30,8 @@ Fetch data using API requests
 Extract data from properties and geometry fields
 Convert timestamps from milliseconds to datetime
 Store records in a Pandas DataFrame
-📊 Dataset Description (26 Features)
-#	Feature	Description
+#	📊 Dataset Description (26 Features)
+Feature	Description
 1	id	Unique identifier for each earthquake
 2	time	Timestamp of the earthquake event
 3	updated	Last updated timestamp
